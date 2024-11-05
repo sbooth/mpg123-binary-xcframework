@@ -6,8 +6,9 @@ import PackageDescription
 let package = Package(
 	name: "mpg123-binary-xcframework",
 	platforms: [
-		.macOS(.v10_15),
-		.iOS(.v14),
+		.macOS(.v11),
+		.iOS(.v15),
+		.tvOS(.v15),
 	],
 	products: [
 		// Products define the executables and libraries a package produces, making them visible to other packages.
@@ -22,7 +23,7 @@ let package = Package(
 		// Targets can depend on other targets in this package and products from dependencies.
 		.binaryTarget(
 			name: "mpg123",
-			url: "https://github.com/sbooth/mpg123-binary-xcframework/releases/download/0.2.0/mpg123.xcframework.zip",
-			checksum: "8e1f9f924dd30d4ddd1838845e21b3f89ed02ee0a9ccea9af119a0bfaf262fd0"),
+			url: "https://github.com/sbooth/mpg123-binary-xcframework/releases/download/0.2.1/mpg123.xcframework.zip",
+			checksum: "1a2aada212084921d8a6cc8dc42432b2dbcd6f0b279d946c59fa38c771fd2d36"),
 	]
 )

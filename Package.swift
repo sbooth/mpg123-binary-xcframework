@@ -23,7 +23,7 @@ let package = Package(
 		// Targets can depend on other targets in this package and products from dependencies.
 		.binaryTarget(
 			name: "mpg123",
-			url: "https://github.com/sbooth/mpg123-binary-xcframework/releases/download/0.3.0/mpg123.xcframework.zip",
-			checksum: "3b1f9593e71279e57916e5425f694ebfa5ebca4ebeefff790500b9a39858b5e2"),
+			url: "https://github.com/sbooth/mpg123-binary-xcframework/releases/download/0.3.1/mpg123.xcframework.zip",
+			checksum: "1dbc6d2981fe7f36871a6110acd161e68e587f28daf34551c3e5ec3376af8aec"),
 	]
 )
